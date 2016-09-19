@@ -30,7 +30,7 @@ namespace x1.webapp
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Let's startup your business!");
+                await context.Response.WriteAsync("Let's do it");
             });
         }
     }
